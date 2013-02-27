@@ -3,7 +3,6 @@
 declare -a STACK
 declare SPOINTER=0;
 
-
 function PUSH {
 	let "SPOINTER += 1";
 	STACK[$SPOINTER]=$1;
