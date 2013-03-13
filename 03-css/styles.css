@@ -1,5 +1,7 @@
 section {
 	border-collapse: collapse;
+	display: table;
+	max-width: 50px;
 }
 
 section > div {
@@ -16,6 +18,6 @@ section > div {
 	background: gray;
 }
 
-section > div:nth-of-type(7n) {
-	display: table-column
+section > div:nth-of-type(8n) {
+	display: table-column;
 }
